@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module</title>
+</head>
+
+<body>
+    <script type="module">
+        // ES Module import()动态模块加载实现
+
+        window.patchModule = function (module) {
+            window._script.remove();
+            if (module.default) {
+                window._resolve(module.default);
+            } else {
+                window._resolve(module)
+            }
+            delete window._script;
+            delete window._resolve;
+        }
+        function importModule(url) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement("script");
+                script.type = "module";
+                script.textContent = `import * as m from "${url}"; patchModule(m);`;
+                document.body.appendChild(script);
+                window._resolve = resolve;
+                window._script = script;
+            });
+        }
+
+        // 动态异步引入
+        importModule('./alert.js')
+            .then(_module => {
+                for (var fn in _module) {
+                    _module[fn]('你好', 'log');
+                }
+            });
+
+        // 静态引入
+        import * as myMath from './math.js';
+        
+        console.log(myMath.sum(1, 2, 3, 5, 7));
+        console.log(myMath.arcArea(5));
+    </script>
+</body>
+
+</html>
