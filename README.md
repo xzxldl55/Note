@@ -9,3 +9,4 @@
 - 前端免费轮子：https://www.thosefree.com/web/ui
 - JSFUCK变态化encode代码：http://www.jsfuck.com/
 - Css巧思网https://css-tricks.com/archives/
+- AI入门https://easyai.tech/ai-knowledge-hub/
