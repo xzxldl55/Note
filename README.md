@@ -10,3 +10,4 @@
 - JSFUCK变态化encode代码：http://www.jsfuck.com/
 - Css巧思网https://css-tricks.com/archives/
 - AI入门https://easyai.tech/ai-knowledge-hub/
+- 书栈网https://www.bookstack.cn/
