@@ -5,6 +5,7 @@
 - https://juejin.cn/post/7088144745788080142#heading-19
 - https://juejin.cn/post/6844904094281236487
 - 阴影效果：https://neumorphism.io
+- 阴影效果：https://getcssscan.com/css-box-shadow-examples
 - 一些通用的UI效果：https://uiverse.io/
 - 前端免费轮子：https://www.thosefree.com/web/ui
 - JSFUCK变态化encode代码：http://www.jsfuck.com/
