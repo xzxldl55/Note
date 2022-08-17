@@ -12,3 +12,4 @@
 - Css巧思网https://css-tricks.com/archives/
 - AI入门https://easyai.tech/ai-knowledge-hub/
 - 书栈网https://www.bookstack.cn/
+- 免费格式转换（针对图片/视频包含压缩功能）https://www.freeconvert.com/
