@@ -13,3 +13,4 @@
 - AI入门https://easyai.tech/ai-knowledge-hub/
 - 书栈网https://www.bookstack.cn/
 - 免费格式转换（针对图片/视频包含压缩功能）https://www.freeconvert.com/
+- 压缩图片https://www.bejson.com/ui/compress_img/
